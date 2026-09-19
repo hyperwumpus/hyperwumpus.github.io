@@ -1,17 +1,34 @@
-# hyperwumpus.github.io
+# HyperWumpus portfolio
 
-Source for the official HyperWumpus portfolio at https://hyperwumpus.github.io.
+Source for [hyperwumpus.github.io](https://hyperwumpus.github.io/).
 
-## Publish with GitHub Pages
+## Quick updates
 
-1. Create a public repository named exactly `hyperwumpus.github.io`.
-2. Upload `index.html` and this `README.md` to the repository's `main` branch.
-3. Open repository **Settings → Pages**.
-4. Under **Build and deployment**, select **Deploy from a branch**.
-5. Choose the `main` branch and the `/ (root)` folder, then save.
+- Edit social, contact, support, and project links in `js/config.js`.
+- Edit page wording and section order in `index.html`.
+- Edit colors and layout in `css/styles.css`.
+- Edit interactions and project case studies in `js/site.js`.
+- Put new project images in `assets/projects/`.
+- Put updated résumé PDFs in `assets/resume/` using the existing filenames.
 
-The first version is a static site and does not require a build command, package manager, server, paid hosting plan, CSS framework, or custom domain.
+## Add a project
 
-## Before treating it as final
+1. Upload a compressed JPG or WebP image to `assets/projects/`.
+2. Copy an existing `<article class="card">` inside the projects grid in `index.html`.
+3. Change its title, description, category, image path, and link.
+4. Commit with a short message such as `Add Example Project`.
+5. GitHub Pages publishes changes from `main` automatically after the pull request is merged.
 
-The concept is self-contained for easy preview, so its embedded media makes the HTML file large. Split and compress the assets before promoting it heavily for faster mobile loading.
+## Project status language
+
+Use precise labels such as **concept**, **prototype**, **CI passing**, **hardware testing pending**, or **live project**. Do not describe an experiment as a finished client product.
+
+## Local preview
+
+From the repository folder, run:
+
+```bash
+python -m http.server 8000
+```
+
+Then open http://localhost:8000.
