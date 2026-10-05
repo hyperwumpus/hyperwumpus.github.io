@@ -1,17 +1,24 @@
-# hyperwumpus.github.io
+# Misael Payan — Portfolio
 
-Source for the official HyperWumpus portfolio at https://hyperwumpus.github.io.
+Personal portfolio for Misael Payan, also known as HyperWumpus.
 
-## Publish with GitHub Pages
+[Live portfolio](https://hyperwumpus.github.io/) · [Yellowstone website and content showcase](https://hyperwumpus.github.io/yellowstone-candy-concept/)
 
-1. Create a public repository named exactly `hyperwumpus.github.io`.
-2. Upload `index.html` and this `README.md` to the repository's `main` branch.
-3. Open repository **Settings → Pages**.
-4. Under **Build and deployment**, select **Deploy from a branch**.
-5. Choose the `main` branch and the `/ (root)` folder, then save.
+## Contents
 
-The first version is a static site and does not require a build command, package manager, server, paid hosting plan, CSS framework, or custom domain.
+- `index.html`: responsive portfolio with an MP monogram, ivory/navy/copper palette, project filters, scope disclosures, IT background, and contact links.
+- `yellowstone-candy-concept/`: independent website concept, Instagram direction, real store photos, and a silent vertical sample reel.
 
-## Before treating it as final
+The portfolio is a self-contained static page with compressed WebP images, system fonts, inline CSS, and minimal JavaScript. It requires no package installation, build process, analytics, or backend.
 
-The concept is self-contained for easy preview, so its embedded media makes the HTML file large. Split and compress the assets before promoting it heavily for faster mobile loading.
+## Preview
+
+Open `index.html` in a browser, or serve the repository with `python3 -m http.server 8000` and visit `http://localhost:8000`.
+
+## Deployment
+
+GitHub Pages serves the `main` branch from the repository root.
+
+## Project status
+
+Business concepts are independent design explorations, not claims of commissioned work or business endorsement. Software examples identify prototypes and internship work. Client pricing, proposal documents, and outreach drafts are not included in this public repository.
