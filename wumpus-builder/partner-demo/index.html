@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#101311">
+<meta name="description" content="An independent, interactive Bootcamp companion proposal by Misael Payan. Try the workout flow and explore a measurable pilot.">
+<title>Keep showing up · Bootcamp companion demo</title>
+<link rel="icon" href="../demo/assets/icon-192.png"><link rel="stylesheet" href="showcase.css">
+<script defer src="../demo/program.js"></script><script defer src="showcase.js"></script>
+</head>
+<body>
+<a class="skip" href="#experience">Skip to working demo</a>
+<header class="topbar"><a class="wordmark" href="#"><span class="mark" aria-hidden="true">↗</span> WUMPUS <b>BUILDER</b></a><span class="proposal">BUCKED UP BOOTCAMP <span>/</span> INDEPENDENT PROPOSAL</span><button class="text-button" data-open="brief">The pilot <span aria-hidden="true">↗</span></button></header>
+<main>
+<section class="hero" aria-labelledby="headline">
+<div class="story">
+<p class="eyebrow"><span class="live-dot"></span> A WORKING COMPANION. A TESTABLE OPPORTUNITY.</p>
+<h1 id="headline">The next set.<br>The next visit.<br><em>Still showing up.</em></h1>
+<p class="intro">Put the workout, the log, and the reason to come back in one place.</p>
+<div class="actions"><a class="primary" href="#experience" id="try-demo">Try the workout <span aria-hidden="true">→</span></a><button class="secondary" data-open="business">Explore the business case</button></div>
+<div class="proof"><span class="check">✓</span><p>Built by Misael Payan.<br><span>Repeat Bootcamp participant · Bucked Up ambassador</span></p></div>
+<p class="honest">Working today: BAMF Builder tracking.<br>Partner tools are a proposed next phase.</p>
+</div>
+<div class="product-stage" id="experience" tabindex="-1">
+<div class="stage-label"><span>01 / EXPERIENCE IT</span><button id="reset" class="text-button">Reset demo ↺</button></div>
+<div class="device">
+<div class="device-brand"><span class="tiny-mark" aria-hidden="true">↗</span><strong>BOOTCAMP <span>COMPANION</span></strong><span class="sample-tag">DEMO</span></div>
+<div class="tabs" role="tablist" aria-label="Preview mode"><button role="tab" id="workout-tab" aria-controls="workout-panel" aria-selected="true" tabindex="0">Workout</button><button role="tab" id="progress-tab" aria-controls="progress-panel" aria-selected="false" tabindex="-1">Progress</button><button role="tab" id="partner-tab" aria-controls="partner-panel" aria-selected="false" tabindex="-1">Partner concept</button></div>
+<div id="workout-panel" role="tabpanel" aria-labelledby="workout-tab">
+<div class="workout-selectors"><label>Week<select id="week" aria-label="Workout week"></select></label><label>Workout<select id="day" aria-label="Workout day"></select></label></div>
+<div class="exercise-top"><span id="exercise-position"></span><button id="rest" class="rest-button">90s rest</button></div>
+<label class="exercise-label" for="exercise">Movement</label><select id="exercise" aria-label="Exercise"></select>
+<div class="prescription"><strong id="prescription"></strong><span id="unit">WEIGHT IN LB</span></div><p id="exercise-note" class="exercise-note"></p>
+<div class="set-head" aria-hidden="true"><span>SET</span><span>WEIGHT · LB</span><span>REPS / TIME</span><span>DONE</span></div>
+<div id="sets"></div>
+<div class="movement-nav"><button id="previous" aria-label="Previous movement">←</button><div id="set-summary">0 sets checked</div><button id="next" aria-label="Next movement">→</button></div>
+<button id="save" class="save-button">Save session</button>
+<p class="sandbox-note">Try sample values. Demo entries stay in memory and reset on reload.</p>
+</div>
+<div id="progress-panel" role="tabpanel" aria-labelledby="progress-tab" hidden>
+<div class="panel-title"><span class="eyebrow">YOUR SESSION LOG</span><h2>Small wins.<br>Made visible.</h2></div>
+<div class="progress-stat"><strong id="saved-count">0</strong><span>sessions saved<br>in this demo</span></div><div id="history" class="history"></div>
+<div class="benefit-note"><span aria-hidden="true">↗</span><p>One place to find your last session and build the next one.</p></div><button class="save-button" id="back-to-workout">Try another session →</button>
+<p class="sandbox-note">Your interactions only. No customer records or outcome claims.</p>
+</div>
+<div id="partner-panel" role="tabpanel" aria-labelledby="partner-tab" hidden>
+<div class="concept-label">PROPOSED TOOL · ILLUSTRATIVE DATA</div>
+<div class="panel-title"><span class="eyebrow">PARTNER WORKSPACE</span><h2>See where<br>momentum fades.</h2></div>
+<div class="concept-stat"><span>Weekly active participants</span><b>68 <small>/ 100 sample members</small></b></div>
+<div class="chart" role="img" aria-label="Illustration only: weekly activity declines from 100 to 68 across four weeks. These are invented design values, not Bootcamp statistics."><div style="--h:100%"><span>100</span><i></i><small>W1</small></div><div style="--h:87%"><span>87</span><i></i><small>W2</small></div><div style="--h:76%"><span>76</span><i></i><small>W3</small></div><div style="--h:68%"><span>68</span><i></i><small>W4</small></div></div>
+<div class="concept-opportunity"><span class="live-dot"></span><p><b>A question worth testing</b><br>Would a timely check-in bring members back?</p></div>
+<p class="concept-disclosure">Design preview only. No analytics, automated outreach, purchase data, or internal integrations are connected. These require approval and development.</p>
+</div>
+<div id="feedback" class="feedback" role="status" aria-live="polite"></div>
+</div>
+</div>
+</section>
+<section class="value-strip" aria-label="Business hypothesis"><div class="value-intro"><span class="eyebrow">THE BUSINESS HYPOTHESIS</span><p>More reasons to return.<br>More chances to earn a sale.</p></div><div class="value-step"><b>01</b><div><strong>Make training easier</strong><span>Less switching between tools</span></div></div><span class="flow-arrow" aria-hidden="true">→</span><div class="value-step"><b>02</b><div><strong>Test repeat engagement</strong><span>Measure return visits and sessions</span></div></div><span class="flow-arrow" aria-hidden="true">→</span><div class="value-step"><b>03</b><div><strong>Measure purchase lift</strong><span>With approved, consented data</span></div></div></section>
+</main>
+<footer><span>Hypothesis, not proven revenue impact. No official affiliation is implied.</span><button class="text-button" data-open="brief">What would we validate first? ↗</button><a href="../demo/">Original demo ↗</a></footer>
+<dialog id="business" aria-labelledby="business-title"><div class="dialog-heading"><p class="eyebrow">02 / A MEASURABLE OPPORTUNITY</p><button class="close" aria-label="Close business case">×</button></div><h2 id="business-title">What would make this<br>worth paying for?</h2><p>Test incremental contribution from purchases. A tracker helps the business only if the results justify its cost.</p><div class="assumption-label">ILLUSTRATIVE ASSUMPTIONS · NOT COMPANY DATA</div><div class="model-inputs"><label>Participants reached<input id="participants" type="number" value="1000" min="1" max="1000000" step="1"></label><label>Extra purchasers (percentage points)<input id="lift" type="number" value="5" min="0" max="100" step="0.5"></label><label>Contribution per extra order ($)<input id="contribution" type="number" value="25" min="0" max="100000" step="1"></label><label>One-time pilot cost ($)<input id="pilot-cost" type="number" value="5000" min="0" max="1000000" step="100"></label></div><div class="model-results" aria-live="polite"><div><span>Additional purchasers</span><strong id="extra-orders"></strong></div><div><span>Added contribution</span><strong id="added-profit"></strong></div><div><span>After pilot fee</span><strong id="net-profit"></strong></div></div><p id="break-even" class="break-even"></p><p class="model-footnote">Model: participants × lift ÷ 100 × contribution per order, less the pilot fee. Assumes one extra order per extra purchaser. Contribution means revenue after product and other variable costs. Hosting and ongoing support are additional. Any lift must be feasible relative to baseline conversion. This does not establish causation.</p><div class="question-box"><strong>Ask before building more</strong><p>What tracking already exists? Where do participants disengage? Can the team share aggregate retention and purchase data, then authorize a pilot comparison?</p></div><a class="source-link" href="https://www.buckedupbootcamp.com/" target="_blank" rel="noopener">Official Bootcamp: participation is free; prize eligibility has separate requirements ↗</a></dialog>
+<dialog id="brief" aria-labelledby="brief-title"><div class="dialog-heading"><p class="eyebrow">03 / START WITH EVIDENCE</p><button class="close" aria-label="Close pilot brief">×</button></div><h2 id="brief-title">One program.<br>One small pilot.</h2><ol class="pilot-phases"><li><span>DISCOVER · 1 WEEK</span><strong>Find the actual gap.</strong><p>Review existing tools with the Bootcamp owner. Interview 5–8 participants. Agree on content rights, a sponsor, a baseline, and the success criteria.</p></li><li><span>PREPARE · 2–3 WEEKS</span><strong>Make Builder ready to test.</strong><p>Review every prescription with the program team. Test real phones, backups, and accessibility. Add approved measurement with participant consent.</p></li><li><span>LEARN · 4 WEEKS</span><strong>Test with 20–30 opt-in members.</strong><p>Measure activation, weekly return, logged sessions, support effort, and interview feedback. Treat purchase data as exploratory at this cohort size.</p></li></ol><p class="question-box">Expand only after evidence: accounts and cloud sync, additional approved programs, then partner reporting and authorized integrations. Each gets its own scope.</p><p class="model-footnote">The current demo supports Builder only. No access to Bucked Up systems is assumed. This preview does not register entrants, verify purchases, or submit official check-ins.</p></dialog>
+</body>
+</html>
