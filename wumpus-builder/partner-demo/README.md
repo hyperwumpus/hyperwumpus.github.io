@@ -29,3 +29,17 @@ The small usability pilot should assess activation, returning users, sessions lo
 ## Dependencies
 
 No build or package installation. System fonts and local scripts/styles only. The original workout data is the only cross-directory dependency. Keep the relative directory structure when copying or previewing.
+
+## Bucked Up visual revision (October 20, 2026)
+
+The concept now uses a black, white, and red palette, the current Bucked Up wordmark, and a supplied campaign banner. It remains explicitly labeled as a partnership concept by Misael Payan. The participant demo is shown before supporting copy on phones.
+
+Asset provenance:
+
+- `assets/favicon.png`: supplied in the user's Bucked Up Assets archive (16-pixel red deer icon; used only as a favicon).
+- `assets/campaign-banner.jpeg`: supplied in the user's archive; displayed at its original 3:1 aspect ratio, without changing embedded artwork.
+- `assets/bucked-up-wordmark.webp`: current header wordmark observed at `https://www.buckedup.com/public/default/img/home/header/logo-buckedup-text-white.webp`, retrieved through the browser on October 20, 2026.
+
+The main store's visual design was inspected. The provided Bootcamp dashboard URL redirected to login in the inspection session; no participant dashboard behavior was inferred from that login screen. No credentials or private Facebook screenshots are included in the source.
+
+The separate PDF proposal, private pricing brief, and parked ambassador-app idea are delivered outside the repository. No messages or analytics requests were sent on the user's behalf.
