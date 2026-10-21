@@ -6,7 +6,7 @@ A separate one-page, app-focused proposal. This directory is additive: the origi
 
 Serve the repository root with `python3 -m http.server 8765 --bind 127.0.0.1` and open `http://127.0.0.1:8765/wumpus-builder/partner-demo/`.
 
-This branch is a reviewable prototype. GitHub Pages still serves main; pushing this branch does not deploy it. If approved for deployment, its separate path would be `/wumpus-builder/partner-demo/`.
+Public portfolio URL: `https://hyperwumpus.github.io/wumpus-builder/partner-demo/`. This independent prototype is published through main on GitHub Pages and linked from the portfolio. It is not an official Bucked Up product. The original app remains at `/wumpus-builder/demo/`.
 
 ## Working interactions
 
